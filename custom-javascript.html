@@ -1,0 +1,18 @@
+<script>
+    $(document).ready(function () {
+
+        // dashboard view
+        // Change "Features" to "Test Suites"
+        $('.card-header h6:contains("Features")').text('Test Suites');
+
+        // Change "Scenarios" to "Test Cases"
+        $('.card-header h6:contains("Scenarios")').text('Test Cases');
+
+        // Change "Steps" to "Test Steps"
+        $('.card-header h6:contains("Steps")').text('Test Steps');
+
+
+        // test view
+        $('.test-list-tools a span:contains("Tests")').text('Test Suites');
+    });
+</script>
